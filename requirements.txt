@@ -1,0 +1,12 @@
+streamlit
+langchain
+langchain-chroma
+langchain-community
+ollama
+PyPDF2
+pymupdf
+langchain
+pypdf
+chromadb
+pytest
+langchain_chroma
