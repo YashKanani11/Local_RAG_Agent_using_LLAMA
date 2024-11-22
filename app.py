@@ -3,6 +3,10 @@ import os
 import time
 from rag_agent import load_documents, split_docs, embed_to_chromaDB, query_chromaDB
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 # Streamlit App
 st.title("📚 RAG Agent with Llama 3.1 8B")
 st.write("Upload your PDFs and ask questions to the agent!")
