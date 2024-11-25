@@ -8,7 +8,7 @@ PyPDF2
 pymupdf
 langchain
 pypdf
-chromadb==0.4.17
+chromadb==0.3.29
 pytest
 langchain_chroma
 pysqlite3-binary
